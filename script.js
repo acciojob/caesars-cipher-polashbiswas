@@ -18,7 +18,7 @@ let words = encodedStr.split(" ");//string to Array
 		let word = words[i];
 		let decodedStr = "";
 		for(let j = 0; j < word.length; j++){
-			let char = word.chartAt(j);
+			let char = word.charAt(j);
 			let decodedChar = lookup[char];
 			decodedStr += decodedChar;
 		}
